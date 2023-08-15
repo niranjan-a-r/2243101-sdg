@@ -1,72 +1,160 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" href = "css/style.css">
         <title>
-            Index Page
+            Home 
         </title>
         <style>
-            .container{
-                display: flex;
-                align-items: center;
+            .grid-container {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(3, 1fr);
             }
-            .header{
-                flex: 1;
-                padding: 20px;
+
+            .progress-container {
+            flex: 1;
+            max-width: 100%;
+            background-color: #ddd;
+            border-radius: 5px;
+            padding: 20px;
             }
-            .image{
-                flex: .25;
-                padding: 20px;
+
+            .sdg-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            max-width: 100%;
             }
-            .image img{
+
+            .sdg-container img {
+                max-width: 400px;
                 height: auto;
-                max-width: 100%;
+                margin-right: 20px;
             }
+
+            .progress-bar {
+                width: 100;
+                height: 30px;
+            }
+            .image-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
         </style>
     </head>
     <body> 
+        <a name="top"></a>
         <header>
-            <div class="container">
-                <div class = "image">
-                    <img src = "c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG logo\E_SDG_logo_without_UN_emblem_Square_Transparent_WEB.png.png">
-                </div>
-                <div>
-                    <h1 style="color:  #5ba525; font-family: Arial, Helvetica, sans-serif; font-size: 50px;">
-                        <b>SUSTAINABLE DEVELOPMENT GOALS</b> 
-                    </h1>
-                </div>
-            </div>
+            <img src = "c:\Users\arnir.REJU\OneDrive\Documents\Sem 3\Web Technology\logo-EN-UN.png.webp">
+                <h1 style="color:  #5ba525; font-family: Arial, Helvetica, sans-serif; font-size: 50px;">
+                    <b>SUSTAINABLE DEVELOPMENT GOALS</b> 
+                </h1>
             <hr>
         </header>
         <main>
-            <h2 style="color: black; font-family: 'SamsungSharpSans', arial, sans-serif;">
-                About SDG
-            </h2>
-            <p style="font-family: Arial, Helvetica, sans-serif; font-size: medium; color: #202124; font-weight: 500; line-height: 1.25;">
-                The 17 Sustainable Development Goals (SDGs) are the world’s best plan to build a better world for people and our planet by 2030. 
-                Adopted by all United Nations Member States in 2015, the SDGs are a call for action by all countries – poor, rich and middle-income – to promote prosperity while protecting the environment. 
-                They recognize that ending poverty must go hand-in-hand with strategies that build economic growth and address a range of social needs including education, health, equality and job opportunities while tackling climate change and working to preserve our ocean and forests.
-                The SDGs are integrated—that is, they recognize that action in one area will affect outcomes in others, and that development must balance social, economic and environmental sustainability. 
-                Through the pledge to Leave No One Behind, countries have committed to fast-track progress for those furthest behind first.
-                That is why the SDGs are designed to bring the world to several life-changing ‘zeros’, including zero poverty, hunger, AIDS and discrimination against women and girls.<br> There are 17 Sustainable Development Goals:
-                <br>
-                <ol type="1">
-                    <li>No Poverty</li>
-                    <li>Zero Hunger</li>
-                    <li>Good Health and Well-Being</li>
-                    <li>Quality Education</li>
-                    <li>Gender Equality</li>
-                    <li>Clean Water and Sanitation</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-
-                </ol>
-            </p>
+            <section>
+                <h2 style="color: black; font-family: 'SamsungSharpSans', arial, sans-serif;">
+                    About SDG
+                </h2>
+                <p style = "font-family: Arial, Helvetica, sans-serif; font-size: large; line-height: 1.5;">
+                    The 17 Sustainable Development Goals (SDGs) are the world’s best plan to build a better world for people and our planet by 2030. 
+                    Adopted by all United Nations Member States in 2015, the SDGs are a call for action by all countries – poor, rich and middle-income – to promote prosperity while protecting the environment. 
+                    They recognize that ending poverty must go hand-in-hand with strategies that build economic growth and address a range of social needs including education, health, equality and job opportunities while tackling climate change and working to preserve our ocean and forests.
+                    The SDGs are integrated—that is, they recognize that action in one area will affect outcomes in others, and that development must balance social, economic and environmental sustainability. 
+                    Through the pledge to Leave No One Behind, countries have committed to fast-track progress for those furthest behind first.
+                    That is why the SDGs are designed to bring the world to several life-changing ‘zeros’, including zero poverty, hunger, AIDS and discrimination against women and girls.<br> There are 17 Sustainable Development Goals:
+                    <br>
+                    <ol type="1" style = "font-family: Arial, Helvetica, sans-serif; font-size: large; line-height: 1.5;">
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/Goal1.html">No Poverty</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal2.html">Zero Hunger</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal3.html">Good Health and Well-Being</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal4.html">Quality Education</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal5.html">Gender Equality</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal6.html">Clean Water And Sanitation</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal7.html">Affordable And Clean Energy</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal8.html">Decent Work And Economic Growth</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal9.html">Industry, Innovation and Infrastructure</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal10.html">Reduced Inequalities</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal11.html">Sustainable Cities and Communities</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal12.html">Responsible Consumption and Production</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal13.html">Climate Action</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal14.html">Life Below Water</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal15.html">Life On Land</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal16.html">Peace, Justice and Strong Institutions</a></li>
+                        <li><a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/goal17.html">Partnerships For The Goals</a></li>
+                    </ol>
+                </p>
+            </section>
+            <section>
+                <h2 style="color: black; font-family: 'SamsungSharpSans', arial, sans-serif;">History</h2>
+                <p style = "font-family: Arial, Helvetica, sans-serif; font-size: large; line-height: 1.5;">
+                    The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future. 
+                    At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries - developed and developing - in a global partnership. 
+                    They recognize that ending poverty and other deprivations must go hand-in-hand with strategies that improve health and education, reduce inequality, and spur economic growth – all while tackling climate change and working to preserve our oceans and forests.
+                    The SDGs build on decades of work by countries and the UN, including the UN Department of Economic and Social Affairs.
+                    <br>&emsp;In June 1992, at the Earth Summit in Rio de Janeiro, Brazil, more than 178 countries adopted Agenda 21, a comprehensive plan of action to build a global partnership for sustainable development to improve human lives and protect the environment.
+                    <br>&emsp;Member States unanimously adopted the Millennium Declaration at the Millennium Summit in September 2000 at UN Headquarters in New York. The Summit led to the elaboration of eight Millennium Development Goals (MDGs) to reduce extreme poverty by 2015.
+                    <br>&emsp;The Johannesburg Declaration on Sustainable Development and the Plan of Implementation, adopted at the World Summit on Sustainable Development in South Africa in 2002, reaffirmed the global community's commitments to poverty eradication and the environment, and built on Agenda 21 and the Millennium Declaration by including more emphasis on multilateral partnerships.
+                    <br>&emsp;At the United Nations Conference on Sustainable Development (Rio+20) in Rio de Janeiro, Brazil, in June 2012, Member States adopted the outcome document "The Future We Want" in which they decided, inter alia, to launch a process to develop a set of SDGs to build upon the MDGs and to establish the UN High-level Political Forum on Sustainable Development. 
+                    The Rio +20 outcome also contained other measures for implementing sustainable development, including mandates for future programmes of work in development financing, small island developing states and more.
+                    <br>&emsp;In 2013, the General Assembly set up a 30-member Open Working Group to develop a proposal on the SDGs.
+                    <br>&emsp;In January 2015, the General Assembly began the negotiation process on the post-2015 development agenda. 
+                    <br>&emsp;The process culminated in the subsequent adoption of the 2030 Agenda for Sustainable Development, with 17 SDGs at its core, at the UN Sustainable Development Summit in September 2015.
+                    <br>&emsp;2015 was a landmark year for multilateralism and international policy shaping, with the adoption of several major agreements:
+                    <br>&MediumSpace;Sendai Framework for Disaster Risk Reduction (March 2015)
+                    <br>&MediumSpace;Addis Ababa Action Agenda on Financing for Development (July 2015)
+                    <br>&MediumSpace;Transforming our world: the 2030 Agenda for Sustainable Development with its 17 SDGs was adopted at the UN Sustainable Development Summit in New York in September 2015.
+                    <br>&MediumSpace;Paris Agreement on Climate Change (December 2015)
+                    <br>&emsp;Now, the annual High-level Political Forum on Sustainable Development serves as the central UN platform for the follow-up and review of the SDGs.
+                    <br>Today, the Division for Sustainable Development Goals (DSDG) in the United Nations Department of Economic and Social Affairs (UNDESA) provides substantive support and capacity-building for the SDGs and their related thematic issues, including water, energy, climate, oceans, urbanization, transport, science and technology, the Global Sustainable Development Report (GSDR), partnerships and Small Island Developing States. DSDG plays a key role in the evaluation of UN systemwide implementation of the 2030 Agenda and on advocacy and outreach activities relating to the SDGs. In order to make the 2030 Agenda a reality, broad ownership of the SDGs must translate into a strong commitment by all stakeholders to implement the global goals. DSDG aims to help facilitate this engagement.
+                </p>
+            </section>
+            <section>
+                <iframe width="1020" height="574" src="https://www.youtube.com/embed/0XTBYMfZyrM" title="Do you know all 17 SDGs?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+            <audio controls>
+                <source src="c:\Users\arnir.REJU\Downloads\UN Sustainable Development Goals - Overview.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <section>
+                <h2 style="color: black; font-family: 'SamsungSharpSans', arial, sans-serif;">
+                    Progress of all accomplishments:
+                </h2>
+                    <div class="sdg-container">
+                        <div class="progress-container"> 
+                            <div class="progress-bar" style="width: 60%;background-color: #19486a;"></div>
+                        </div>
+                    </div>
+            </section>
+            <div class="grid-container">
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-01.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-02.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-03.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-04.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-05.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-06.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-07.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-08.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-09.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-10.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-11.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-12.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-13.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-14.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-15.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-16.png"></div>
+                <div class = "image-item"><img src="c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG icons\E-WEB-Goal-17.png"></div>
+                <div class="image-item"> <img src = "c:\Users\arnir.REJU\Downloads\SDG-icons-and-poster-pack-EN\SDG Icons 2019_WEB - Copy\English SDG logo\E_SDG_logo_without_UN_emblem_Square_Transparent_WEB.png.png"></div>
+            </div>
         </main>
         <footer>
+            <a href="#top">Go to top &#8679;</a>
+            <br><br>
+            <div style="color: rgb(70, 69, 69);">
+                <a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/developer_page.html"><i>About Developer</i></a><br>
+                <a href="file:///C:/Users/arnir.REJU/OneDrive/Documents/Sem%203/Web%20Technology/2243101-sdg/references_page.html"><i>References</i></a>
+            </div>
         </footer>
     </body>
 </html>
